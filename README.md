@@ -14,7 +14,7 @@ npm install
 ```
 npx hardhat compile
 ```
-3. Deploy contract on hardhat
+3. Deploy contract on sepolia via hardhat
 ```
 npx hardhat run --network sepolia scripts/deploy.js
 ```
