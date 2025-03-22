@@ -1,0 +1,70 @@
+/* TextUpload.css - Properly centers the form and removes disproportion */
+
+.text-upload {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-upload form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.input-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  width: 100%;
+}
+
+.input-field {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-button {
+  padding: 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .text-upload {
+    width: 90%;
+  }
+}
