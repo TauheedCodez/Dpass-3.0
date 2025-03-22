@@ -20,7 +20,7 @@ npx hardhat run --network sepolia scripts/deploy.js
 ```
 4. copy paste the Deployed address in App.jsx
 5. Sign up Alchemy Account and create an app and select network as sepolia
-6. create an .env file
+6. install dotenv 
 ```
 npm install dotenv
 ```
