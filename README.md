@@ -1,5 +1,7 @@
 # Password Manager DApp 
  This is a beginner-friendly decentralized application (DApp) for saving and retrieving passwords.
+ Deployed Netlify link 
+ https://dpass30.netlify.app/
 
 ## Getting Started
 To get this DApp running, follow the steps below:
