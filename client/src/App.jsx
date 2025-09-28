@@ -33,7 +33,7 @@ function App() {
         const address = await signer.getAddress();
         setAccount(address);
 
-        let contractAddress = "Your Contract Deployed Address";
+        let contractAddress = "Your Deployed Contract Address";
         const contract = new ethers.Contract(
           contractAddress,
           Upload.abi,
