@@ -5,7 +5,7 @@
     "hardhat": "^2.12.4"
   },
   "dependencies": {
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.6.1",
     "web3": "^4.16.0"
   }
 }
