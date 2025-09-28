@@ -8,29 +8,29 @@ To get this DApp running, follow the steps below:
 
 ### Install Metamask
 ### Contract Compilation and Deployment
-1. install dependencies
+1. install dependencies in both root directory and client directory 
 ```
 npm install
 ```
-2. compile contract
-```
-npx hardhat compile
-```
-3. Deploy contract on sepolia via hardhat
-```
-npx hardhat run --network sepolia scripts/deploy.js
-```
-4. copy paste the Deployed address in App.jsx
-5. Sign up Alchemy Account and create an app and select network as sepolia
-6. install dotenv 
+2. Sign up Alchemy Account and create an app and select network as sepolia
+3. install dotenv 
 ```
 npm install dotenv
 ```
-7. create a .env file in the client folder
+4. create a .env file in the client folder
 ```
 ALCHEMY_API_URL="<your Aclchemy api url>"
 PRIVATE_KEY="<your Metamask private key>"
 ```
+5. compile contract
+```
+npx hardhat compile
+```
+6. Deploy contract on sepolia via hardhat
+```
+npx hardhat run --network sepolia scripts/deploy.js
+```
+7. copy paste the Deployed address in App.jsx
 8. run the project
 ```
 npm run dev
@@ -43,4 +43,5 @@ npm install ethers@5
 
 ## Project Screenshot:
 
-![Screenshot 2025-04-10 130519](https://github.com/user-attachments/assets/d9133d1a-6b57-4ef2-b68f-c4597159a3de)
+<img width="1917" height="963" alt="image" src="https://github.com/user-attachments/assets/3bccb91d-df64-4e21-a0a3-0c875e10e941" />
+
